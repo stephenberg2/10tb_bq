@@ -136,3 +136,19 @@ relationships:
     to:
       dimension: store dimension
       level: store number
+  - unique_name: web_sales_ws_bill_cdemo_sk_to_customer demographics_customer number
+    from:
+      dataset: web_sales
+      join_columns:
+        - ws_bill_cdemo_sk
+    to:
+      dimension: customer demographics
+      level: customer number
+  - unique_name: store_sales_ss_cdemo_sk_to_customer demographics_customer number
+    from:
+      dataset: store_sales
+      join_columns:
+        - ss_cdemo_sk
+    to:
+      dimension: customer demographics
+      level: customer number
