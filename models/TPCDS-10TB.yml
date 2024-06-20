@@ -9,7 +9,7 @@ metrics:
   - unique_name: store coupon amount
     folder: store sales metrics
   - unique_name: store customer count
-    folder: customer information
+    folder: customer metrics
   - unique_name: store net paid incl tax
     folder: store sales metrics
   - unique_name: store quantity sold
@@ -17,7 +17,7 @@ metrics:
   - unique_name: store sales row counter
     folder: store sales metrics
   - unique_name: web customer count
-    folder: customer information
+    folder: customer metrics
   - unique_name: web ext discount amount
     folder: web sales metrics
   - unique_name: web ext ship cost
