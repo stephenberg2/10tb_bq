@@ -1,6 +1,0 @@
-unique_name: wh-connection
-object_type: connection
-label: wh-connection
-as_connection: big query
-database: benchmark-251817
-schema: tpcds_10tb
