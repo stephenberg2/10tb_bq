@@ -1,6 +1,6 @@
-unique_name: TPCDS-10TB comp
+unique_name: TPCDS-10TB
 object_type: composite_model
-label: TPCDS-10TB comp
+label: TPCDS-10TB
 models:
     - store sales model
     - web sales model
