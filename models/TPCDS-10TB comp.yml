@@ -1,0 +1,17 @@
+unique_name: TPCDS-10TB comp
+object_type: composite_model
+label: TPCDS-10TB comp
+models:
+    - store sales model
+    - web sales model
+metrics:
+    - unique_name: total customer count
+      folder: total sales metrics
+    - unique_name: total net profit
+      folder: total sales metrics
+    - unique_name: total purchased amount
+      folder: total sales metrics
+    - unique_name: total quantity sold ytd
+      folder: total sales metrics
+    - unique_name: total quantity sold
+      folder: total sales metrics

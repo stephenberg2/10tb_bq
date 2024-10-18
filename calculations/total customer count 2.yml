@@ -1,0 +1,6 @@
+unique_name: total customer count 2
+object_type: metric_calc
+label: total customer count 2
+description: sum of store and web customers
+expression: '[Measures].[store customer count] + [Measures].[web customer count]'
+is_hidden: false
