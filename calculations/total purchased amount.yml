@@ -3,3 +3,4 @@ object_type: metric_calc
 label: total purchased amount
 expression: '[Measures].[purchased amount in store]'
 is_hidden: false
+mdx_aggregate_function: SUM

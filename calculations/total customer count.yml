@@ -4,3 +4,4 @@ label: total customer count
 description: sum of store and web customers
 expression: '[Measures].[store customer count] + [Measures].[web customer count]'
 is_hidden: false
+mdx_aggregate_function: SUM
